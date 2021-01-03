@@ -1,5 +1,6 @@
 provider "aws" {
   region = "us-west-1"
+  profile = "microstack-learner"
 }
 
 resource "aws_vpc" "my_fugue_cicd_vpc" {
