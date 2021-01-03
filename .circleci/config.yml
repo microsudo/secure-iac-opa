@@ -83,7 +83,7 @@ workflows:
         - terraform-init:
            filters:
              branches:
-               only: master
+               only: mail
         - terraform-plan:
            requires:
              - terraform-init
