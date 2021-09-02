@@ -39,3 +39,4 @@ resource "aws_iam_policy" "basically_deny_all" {
   ]
 }
 EOF
+}
